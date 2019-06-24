@@ -1,0 +1,40 @@
+.page-header {
+    width: 100%;
+    height: 50px;
+    background-color: #D7D6DC;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.artist-title {
+    width: 100%;
+    float: left;
+}
+
+.albums {
+    color: #ACACAE;
+    font-size: 12px;
+}
+
+.album-name {
+    width: 100%;
+    text-align: left;
+    float: left;
+}
+
+.back-button {
+    background-color: white;
+    border: none;
+    float: right;
+}
+.previous{
+    float: left;
+}
+.next{
+    float: right;
+}
+
+.total {
+    color: gray;
+    font-size: 12px;
+}

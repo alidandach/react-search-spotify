@@ -1,0 +1,15 @@
+.previous,.next {
+    border: none;
+    background-color: white;
+}
+.previous{
+    float: left;
+}
+.next{
+    float: right;
+}
+
+.total {
+    color: gray;
+    font-size: 12px;
+}

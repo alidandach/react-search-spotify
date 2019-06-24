@@ -1,0 +1,14 @@
+.artist-title, .artist-followers {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+.artist-followers {
+    color: gray;
+    font-size: 11px;
+}
+
+.rating-container {
+    float: left;
+}

@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.login-spotify-icon {
+  color: goldenrod;
+  float: right;
+}
+
+.parent {
+  padding-top: 15%;
+}
+
+.child {
+  width: 100%;
+}
+
+.spotify-login-button {
+  width: 25%;
+  height: 55px;
+  border: 1px solid #b9b0b0;
+  border-radius: 10px;
+  background-color: white;
+  padding-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
