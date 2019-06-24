@@ -5,7 +5,7 @@ export default class ArtistDetails extends Component {
 
     state = {
         details: [],
-        url: 'https://api.spotify.com/v1/search?q=artist:' + this.props.selectedArtist.name + '&type=album&limit=12&offset=5',
+        url: 'https://api.spotify.com/v1/search?q=artist:' + this.props.selectedArtist.name + '&type=album&limit=12&offset=0',
         reminder: 0
     }
 
