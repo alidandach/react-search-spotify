@@ -1,4 +1,4 @@
-### Spotify React App
+# Spotify React App
 
 it's small example to use spotify API in react project 
 
