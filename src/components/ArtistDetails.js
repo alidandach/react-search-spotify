@@ -131,7 +131,7 @@ export default class ArtistDetails extends Component {
                         {this.state.details && this.state.details.albums &&
                             this.state.details.albums.items.map(item => {
                                 return (
-                                    <div className="col-3 my-3">
+                                    <div className="col-xs-12 col-sm-6 col-md-3 my-3">
                                         <div className="card">
                                             <img className="img-card-top" style={{ height: '200px' }} src={item.images[0].url} alt={item.name} />
                                             <div className="card-body text-capitalize" style={{ height: '150px' }}>

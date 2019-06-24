@@ -7,7 +7,7 @@ export default class Artist extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="col-3 my-3">
+                <div className="col-xs-12 col-sm-6 col-md-3 my-3">
                     <div className="card" onClick={() => this.props.handleDetails(0, this.props.access_token, this.props.artist)}>
                         <img className="img-card-top" style={{ height: '15rem' }} src={this.props.artist.images && this.props.artist.images.length > 0 ? this.props.artist.images[0].url:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/600px-No_image_available.svg.png'} alt={this.props.artist.name} />
                         <div className="card-body text-capitalize" style={{ height: '100px' }}>
